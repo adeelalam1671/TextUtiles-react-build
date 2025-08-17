@@ -39,7 +39,7 @@ function App() {
           mode={mode}
         />
         {/* If you want to display About component too: */}
-         <About /> 
+         <About mode={mode} /> 
       </div>
     </>
   );
