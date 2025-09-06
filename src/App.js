@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 import Navbar from './components/Navbar';
 import About from './components/About';
 import TextForm from './components/TextForm';
@@ -35,7 +36,7 @@ function App() {
       <div className="container my-3">
         <TextForm
           showAlert={showAlert}
-          heading="Enter your text to analyse below"
+          heading="Try TextUtil - word counter,character counter,reverse characters"
           mode={mode}
         />
         {/* If you want to display About component too: */}
